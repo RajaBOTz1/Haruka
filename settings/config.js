@@ -1,13 +1,12 @@
 const fs = require('fs')
 const chalk = require('chalk')
-
 // self or public
 global.self = false //jadiin true klo gk mau fitur bot lu di pke sama org lain
 
 // setting
-global.ownername ="𝐟𝐢𝐫𝐚𝐚"
-global.ownernumber = "13022814650"
-global.botname = "𝐟𝐢𝐫𝐚𝐚ʙᴏᴛ"
+global.ownername ="RAJA`"
+global.ownernumber = "6282188585604"
+global.botname = "Raja BOTz"
 global.thumbnail = fs.readFileSync("./settings/haruka.jpg") //sesuaikan dengan nama foto
 global.background = "https://telegra.ph/file/d4c05638fa7886a1d8060.jpg"
 global.limit = {
@@ -15,8 +14,6 @@ global.limit = {
 		premium:1000
 	}
 global.session_name = "session.json"
-
-
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
